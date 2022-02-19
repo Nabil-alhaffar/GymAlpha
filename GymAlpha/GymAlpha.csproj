@@ -256,6 +256,14 @@
       <Project>{4DA381C3-252D-4580-A34B-7B039A777437}</Project>
       <Name>GymAlpha.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GymAlpha.Models\GymAlpha.Models.csproj">
+      <Project>{54908e5f-6db5-407c-9ab7-5e673739a1a6}</Project>
+      <Name>GymAlpha.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GymAlpha.Services\GymAlpha.Services.csproj">
+      <Project>{228db0c6-2aa9-49e2-a21c-c4da9f8982af}</Project>
+      <Name>GymAlpha.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
