@@ -31,6 +31,7 @@ namespace GymAlpha.Data
         {
             return new ApplicationDbContext();
         }
+        // Edited to remove errors, add back in one Database for each has been created
 
         public DbSet<ExerciseType> ExerciseTypes { get; set; }
         public DbSet<ExerciseEquipment> ExerciseEquipments { get; set; }
