@@ -3,6 +3,8 @@ using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using GymAlpha.Data.JunctionLog;
+using GymAlpha.Data.TargetEntries;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -31,7 +33,6 @@ namespace GymAlpha.Data
         {
             return new ApplicationDbContext();
         }
-        // Edited to remove errors, add back in one Database for each has been created
 
         public DbSet<ExerciseType> ExerciseTypes { get; set; }
         public DbSet<ExerciseEquipment> ExerciseEquipments { get; set; }
