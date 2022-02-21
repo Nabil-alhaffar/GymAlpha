@@ -54,10 +54,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EndPoints\ExerciseEquipment.cs" />
+    <Compile Include="EndPoints\ExerciseType.cs" />
     <Compile Include="Identities\BaseIdentity.cs" />
+    <Compile Include="ExercisesWorkouts\Exercise.cs" />
+    <Compile Include="FrontPoints\Entries.cs" />
     <Compile Include="Identities\IdentityModels.cs" />
+    <Compile Include="ExercisesWorkouts\Workout.cs" />
+    <Compile Include="FrontPoints\Target.cs" />
+    <Compile Include="JunctionLog\Log.cs" />
+    <Compile Include="JunctionLog\Junction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Identities\VisibleIdentity.cs" />
+    <Compile Include="EndPoints\WorkoutType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
