@@ -9,5 +9,7 @@ namespace GymAlpha.Data
     public class WorkoutType : BaseIdentity 
     {
         public string WorkoutTypeName { get; set; }
+        public int WorkoutID { get; set; }
+        public virtual Workout Workout { get; set; }
     }
 }

@@ -56,6 +56,7 @@
   <ItemGroup>
     <Compile Include="EndPoints\ExerciseEquipment.cs" />
     <Compile Include="EndPoints\ExerciseType.cs" />
+    <Compile Include="FrontPoints\Hashset.cs" />
     <Compile Include="Identities\BaseIdentity.cs" />
     <Compile Include="ExercisesWorkouts\Exercise.cs" />
     <Compile Include="FrontPoints\Entries.cs" />
