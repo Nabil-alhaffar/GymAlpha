@@ -8,6 +8,7 @@ namespace GymAlpha.Data
         public Entries()
         {
             Log = new HashSet<Log>();
+
             Junction = new HashSet<Junction>();
         }
 
